@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Reduced Time Categories
 // @namespace    12monkeys-se7en
-// @version      0.1
+// @version      0.2
 // @description  Reduced time category options in dropdowns
 // @author       Ian Ralphs
 // @match        https://*/*/DTX.NET/*Summary.aspx
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/reducedTimeCategories.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/reducedTimeCategories.user.js
+// @run-at       document-end
 // @grant        none
 // ==/UserScript==
 
