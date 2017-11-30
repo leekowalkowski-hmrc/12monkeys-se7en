@@ -27,8 +27,9 @@ Puts a link to DTX on your Talent home page, next to the welcome message.
 ## Reduce Time Categories
 
 * Reduces the number of time categories available to select when creating a new row in your DTX timesheet.
+* The list of categories enabled can be changed in the TamperMonkey script.
 
-[Install: Easy Login](https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/reducedTimeCategories.user.js)
+[Install: Reduce Time Categories](https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/reducedTimeCategories.user.js)
 
 ## Standard Time UK
 
