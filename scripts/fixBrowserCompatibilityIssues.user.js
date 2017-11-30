@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Browser Compatibility
 // @namespace    12monkeys-se7en
-// @version      0.1
+// @version      0.2
 // @description  Fix browser compatibility issues
 // @author       Lee Kowalkowski, Ian Ralphs
 // @match        https://*/*/DTX.NET/*
@@ -18,5 +18,7 @@
         element.removeAttribute('onpropertychange');
     });
 
-
+    document.querySelectorAll("[name]:not([id])").forEach(element => {
+        element.id = element.name;
+    });
 })();
