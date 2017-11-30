@@ -24,6 +24,12 @@ Puts a link to DTX on your Talent home page, next to the welcome message.
 
 [Install: Easy Login](https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/easyLogin.user.js)
 
+## Reduce Time Categories
+
+* Reduces the number of time categories available to select when creating a new row in your DTX timesheet.
+
+[Install: Easy Login](https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/reducedTimeCategories.user.js)
+
 ## Standard Time UK
 
 * Adds a button to enter Standard Time UK
