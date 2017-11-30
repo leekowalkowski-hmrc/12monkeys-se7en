@@ -23,3 +23,9 @@ Puts a link to DTX on your Talent home page, next to the welcome message.
 * Detects the 'You are already logged into WebDTX' message and redirects you to the summary page.
 
 [Install: Easy Login](https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/easyLogin.user.js)
+
+## Standard Time UK
+
+* Adds a button to enter Standard Time UK
+
+[Install: Easy Login](https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/standardTimeUK.user.js)
