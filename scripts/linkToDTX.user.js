@@ -10,16 +10,16 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     let linkToTimesheet = document.createElement('a');
-    linkToTimesheet.href = CSCO_WebVPN.mangle_url("http://missbhadtx03.corp.capgemini.com/DTX.NET/",0);
+    linkToTimesheet.href = CSCO_WebVPN.mangle_url("http://missbhadtx03.corp.capgemini.com/DTX.NET/", 0);
     linkToTimesheet.textContent = 'do your timesheet';
 
     let editProfileLink = document.querySelector('[title^="Edit profile"]');
 
-    if(editProfileLink) {
+    if (editProfileLink) {
         let parent = editProfileLink.parentNode;
         parent.appendChild(document.createTextNode(' | '));
         parent.appendChild(linkToTimesheet);

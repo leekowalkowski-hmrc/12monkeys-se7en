@@ -5,12 +5,13 @@
 // @description  use emojis for summary icons because reasons
 // @author       You
 // @match        https://*/*/DTX.NET/*Summary.aspx
+// @match        http://*/DTX.NET/*Summary.aspx
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/emojis.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/emojis.user.js
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     document.querySelector("#SummarySaveButton").setAttribute("src", "https://github.com/leekowalkowski-hmrc/12monkeys-se7en/blob/master/images/save.png?raw=true");
