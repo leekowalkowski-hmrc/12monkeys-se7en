@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Browser Compatibility
 // @namespace    12monkeys-se7en
-// @version      0.4
+// @version      0.5
 // @description  Fix browser compatibility issues
 // @author       Lee Kowalkowski, Ian Ralphs
-// @match        https://*/*/DTX.NET/*
+// @match        https://*/DTX.NET/*
 // @match        http://*/DTX.NET/*
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/fixBrowserCompatibilityIssues.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/fixBrowserCompatibilityIssues.user.js

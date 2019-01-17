@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Easy login
 // @namespace    12monkeys-se7en
-// @version      0.2
+// @version      0.3
 // @description  Login page has 'Enter employee number' as clear text, if it was a password field, you could use your password manager.
 // @author       Lee Kowalkowski
-// @match        https://*/*/DTX.NET/*Login.aspx
+// @match        https://*/DTX.NET/*Login.aspx
 // @match        http://*/DTX.NET/*Login.aspx
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/easyLogin.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/easyLogin.user.js

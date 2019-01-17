@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         summary emoji icons
 // @namespace    12monkeys-se7en
-// @version      0.1
+// @version      0.2
 // @description  use emojis for summary icons because reasons
 // @author       You
-// @match        https://*/*/DTX.NET/*Summary.aspx
+// @match        https://*/DTX.NET/*Summary.aspx
 // @match        http://*/DTX.NET/*Summary.aspx
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/emojis.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/emojis.user.js

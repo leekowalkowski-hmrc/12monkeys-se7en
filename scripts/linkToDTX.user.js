@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Link to DTX
 // @namespace    12monkeys-se7en
-// @version      0.1
+// @version      0.2
 // @description  Put a link to DTX on Talent Homepage
 // @author       Lee Kowalkowski
-// @match        https://*/*/uk
+// @match        https://*/uk
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/linkToDTX.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/linkToDTX.user.js
 // @grant        none
