@@ -5,7 +5,7 @@
 // @description  Reduced time category options in dropdowns
 // @author       Ian Ralphs
 // @match        https://*/DTX.NET/*
-// @match        http://*/DTX.NET/*
+// @match        https://*/*/DTX.NET/*
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/reducedTimeCategories.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/reducedTimeCategories.user.js
 // @run-at       document-end

@@ -5,6 +5,7 @@
 // @description  add a shortcut for standard time in uk
 // @author       You
 // @match        https://*/DTX.NET/*Summary.aspx
+// @match        https://*/*/DTX.NET/*Summary.aspx
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/linkToDTX.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/linkToDTX.user.js
 // @grant        none

@@ -5,7 +5,7 @@
 // @description  Fix browser compatibility issues
 // @author       Lee Kowalkowski, Ian Ralphs
 // @match        https://*/DTX.NET/*
-// @match        http://*/DTX.NET/*
+// @match        https://*/*/DTX.NET/*
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/fixBrowserCompatibilityIssues.user.js
 // @downloadURL  https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/fixBrowserCompatibilityIssues.user.js
 // @resource     CSS https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/styles/fix.css
