@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Browser Compatibility
 // @namespace    12monkeys-se7en
-// @version      0.5
+// @version      0.6
 // @description  Fix browser compatibility issues
 // @author       Lee Kowalkowski, Ian Ralphs
 // @match        https://*/DTX.NET/*

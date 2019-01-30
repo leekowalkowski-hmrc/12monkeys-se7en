@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         summary emoji icons
 // @namespace    12monkeys-se7en
-// @version      0.2
+// @version      0.3
 // @description  use emojis for summary icons because reasons
 // @author       You
 // @match        https://*/DTX.NET/*Summary.aspx

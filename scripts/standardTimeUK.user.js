@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         standard time shortcut
 // @namespace    12monkeys-se7en
-// @version      0.2
+// @version      0.3
 // @description  add a shortcut for standard time in uk
 // @author       You
 // @match        https://*/DTX.NET/*Summary.aspx

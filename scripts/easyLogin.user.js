@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Easy login
 // @namespace    12monkeys-se7en
-// @version      0.3
+// @version      0.4
 // @description  Login page has 'Enter employee number' as clear text, if it was a password field, you could use your password manager.
 // @author       Lee Kowalkowski
 // @match        https://*/DTX.NET/*Login.aspx

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Link to DTX
 // @namespace    12monkeys-se7en
-// @version      0.2
+// @version      0.3
 // @description  Put a link to DTX on Talent Homepage
 // @author       Lee Kowalkowski
 // @match        https://*/uk

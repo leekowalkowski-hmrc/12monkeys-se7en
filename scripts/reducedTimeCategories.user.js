@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reduced Time Categories
 // @namespace    12monkeys-se7en
-// @version      0.5
+// @version      0.6
 // @description  Reduced time category options in dropdowns
 // @author       Ian Ralphs
 // @match        https://*/DTX.NET/*
