@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Browser Compatibility
 // @namespace    12monkeys-se7en
-// @version      0.6
+// @version      0.7
 // @description  Fix browser compatibility issues
 // @author       Lee Kowalkowski, Ian Ralphs
 // @match        https://*/DTX.NET/*
@@ -26,5 +26,36 @@
 
     document.querySelectorAll("[name]:not([id])").forEach(element => {
         element.id = element.name;
+    });
+
+    Element.prototype.selectSingleNode = function(xpath) {
+        var newXpath = xpath.replace(/\[(\d+)\]/g, function(match, number) {
+            return "[" + (parseInt(number)+1) + "]";
+        });
+        var nodes = this.ownerDocument.evaluate(newXpath, this);
+        return nodes.iterateNext();
+    };
+
+    Element.prototype.selectNodes = function(xpath) {
+        var results = [];
+        var result;
+        var nodes = this.ownerDocument.evaluate(xpath, this, null);
+        while (result = nodes.iterateNext()) {
+            results.push(result);
+        }
+        return results;
+    };
+
+    Object.defineProperty(Element.prototype, 'text', {
+        set: function(value){this.textContent = value;},
+        get: function(){return this.textContent;}
+    });
+
+    Object.defineProperty(Attr.prototype, 'text', {
+        get: function(){return this.value;}
+    });
+
+    Object.defineProperty(XMLDocument.prototype, 'xml', {
+        get: function(){return this.documentElement.outerHTML;}
     });
 })();
