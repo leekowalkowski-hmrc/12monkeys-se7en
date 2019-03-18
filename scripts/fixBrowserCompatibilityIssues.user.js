@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Browser Compatibility
 // @namespace    12monkeys-se7en
-// @version      0.7
+// @version      0.8
 // @description  Fix browser compatibility issues
-// @author       Lee Kowalkowski, Ian Ralphs
+// @author       Lee Kowalkowski, Ian Ralphs, Alex Fisher
 // @match        https://*/DTX.NET/*
 // @match        https://*/*/DTX.NET/*
 // @updateURL    https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/fixBrowserCompatibilityIssues.user.js
@@ -28,6 +28,15 @@
         element.id = element.name;
     });
 
+    // Submit holidays - prevent incorrect heights covering submit button
+    var div = document.getElementById('dgHolidaySubmitClaims_div');
+    if(div){
+        div.style.height = 'auto';
+        div.parentElement.style.height = 'auto';
+    }
+    igtbl_adjustNNHeight = function(){};
+
+    // Submit claims - fill in missing legacy IE methods
     Element.prototype.selectSingleNode = function(xpath) {
         var newXpath = xpath.replace(/\[(\d+)\]/g, function(match, number) {
             return "[" + (parseInt(number)+1) + "]";
