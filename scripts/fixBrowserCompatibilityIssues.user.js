@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Browser Compatibility
 // @namespace    12monkeys-se7en
-// @version      0.8
+// @version      0.9
 // @description  Fix browser compatibility issues
 // @author       Lee Kowalkowski, Ian Ralphs, Alex Fisher
 // @match        https://*/DTX.NET/*
@@ -34,7 +34,8 @@
         div.style.height = 'auto';
         div.parentElement.style.height = 'auto';
     }
-    igtbl_adjustNNHeight = function(){};
+
+    window.igtbl_adjustNNHeight = function(){};
 
     // Submit claims - fill in missing legacy IE methods
     Element.prototype.selectSingleNode = function(xpath) {
