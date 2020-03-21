@@ -40,6 +40,12 @@ Puts a link to DTX on your Talent home page, next to the welcome message.
 
 [Install: Standard Time UK](https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/standardTimeUK.user.js)
 
+### Auto Fill Timesheet
+
+Are most of your days this month going to be 7.5?  Add a button to the taskbar to fill your sheet in a single click.
+
+[Install: Auto Fill](https://raw.githubusercontent.com/leekowalkowski-hmrc/12monkeys-se7en/master/scripts/autoFill.user.js)
+
 ## Just for fun
 
 ### Summary emojis
