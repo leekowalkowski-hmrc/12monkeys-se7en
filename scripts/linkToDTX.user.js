@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Link to DTX
 // @namespace    12monkeys-se7en
-// @version      0.3
+// @version      0.4
 // @description  Put a link to DTX on Talent Homepage
 // @author       Lee Kowalkowski
 // @match        https://*/uk
@@ -15,7 +15,11 @@
     'use strict';
 
     let linkToTimesheet = document.createElement('a');
-    linkToTimesheet.href = CSCO_WebVPN.mangle_url("http://missbhadtx03.corp.capgemini.com/DTX.NET/", 0);
+    if(window.CSCO_WebVPN) {
+        linkToTimesheet.href = window.CSCO_WebVPN.mangle_url("https://missbhadtx03.corp.capgemini.com/DTX.NET/", 0);
+    } else {
+        linkToTimesheet.href = "https://missbhadtx03.corp.capgemini.com/DTX.NET/";
+    }
     linkToTimesheet.textContent = 'do your timesheet';
 
     let editProfileLink = document.querySelector('[title^="Edit profile"]');
